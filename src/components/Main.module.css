@@ -1,0 +1,18 @@
+.main {
+  padding: 0.8rem 0;
+  display: flex;
+  height: 100vh;
+}
+
+.search-container {
+  width: 50%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+}
+
+.map-container {
+  height: 100%;
+  width: 50%;
+}

@@ -1,0 +1,36 @@
+.layout {
+  background-color: var(--color-white);
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bouncer {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--color-primary-light),
+    var(--color-primary)
+  );
+  transition: all 1.2s ease-out;
+
+  animation: bouncing 1.2s ease-out infinite;
+}
+
+@keyframes bouncing {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+
+  50% {
+    transform: translateY(-3rem) rotate(-90deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}

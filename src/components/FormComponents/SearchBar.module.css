@@ -1,0 +1,35 @@
+.layout {
+  width: 50%;
+  background-color: var(--color-white);
+  border-radius: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  width: 40vw;
+  padding: 1.2rem 3rem;
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-out;
+}
+
+.layout:focus-within {
+  box-shadow: 0 0.2rem 0.3rem rgba(1, 169, 110, 0.25);
+}
+
+.layout:focus-within .svg {
+  fill: var(--color-primary);
+}
+
+.svg {
+  height: 2rem;
+  width: 2rem;
+  fill: var(--color-grey-dark-1);
+  transition: all 0.3s ease-out;
+}
+
+.svg:hover {
+  fill: var(--color-primary);
+}
+
+.svg,
+.svg * {
+  cursor: pointer;
+}

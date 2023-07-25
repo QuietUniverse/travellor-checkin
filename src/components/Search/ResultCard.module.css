@@ -1,0 +1,63 @@
+.item {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  color: var(--color-grey-dark-1);
+  font-weight: 600;
+  border-bottom: 0.2rem solid var(--color-grey-light-1);
+  padding: 1.5rem 0;
+  transition: all 0.3s ease-out;
+}
+
+.item,
+.item * {
+  cursor: pointer;
+}
+
+.item:hover,
+.active {
+  background-color: var(--color-grey-light-1);
+}
+
+.thumbnail {
+  min-height: 15rem;
+  min-width: 15rem;
+  max-height: 15rem;
+  max-width: 15rem;
+  object-fit: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  display: flex;
+  gap: 0.8rem;
+  color: var(--color-black);
+}
+
+.rating {
+  fill: var(--color-primary);
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.review-count {
+  font-size: 1.4rem;
+}
+
+.address {
+  margin-top: 1.5rem;
+}

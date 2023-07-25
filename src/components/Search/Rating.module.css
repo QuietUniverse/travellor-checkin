@@ -1,0 +1,7 @@
+.layout {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.3rem;
+  position: relative;
+  height: min-content;
+}
