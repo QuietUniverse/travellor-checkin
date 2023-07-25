@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/travellor-checkin/static/css/main.b49f78cb.css",
+    "main.js": "/travellor-checkin/static/js/main.50628c1a.js",
+    "static/media/attractionShadow.svg": "/travellor-checkin/static/media/attractionShadow.90fb6bf0dadefe1deecb96c95f397fa4.svg",
+    "static/media/attraction.svg": "/travellor-checkin/static/media/attraction.1aa484fea4e534241e9f38f3a34f4db2.svg",
+    "static/media/hotelShadow.svg": "/travellor-checkin/static/media/hotelShadow.031752674f0cac056b453adc182d2e1c.svg",
+    "static/media/restaurantShadow.svg": "/travellor-checkin/static/media/restaurantShadow.035b19071ed388de867a1be466320b98.svg",
+    "static/media/generalShadow.svg": "/travellor-checkin/static/media/generalShadow.9eef5b5f9ba58c48f3c4e54e047aa9ff.svg",
+    "static/media/general.svg": "/travellor-checkin/static/media/general.b5290675ffd41c778575ed71cce09e5d.svg",
+    "static/media/hotel.svg": "/travellor-checkin/static/media/hotel.4fda869e53d05a549dea8a7f07c49f6f.svg",
+    "static/media/restaurant.svg": "/travellor-checkin/static/media/restaurant.fbc1f68eec54673d0307083f74cee9ca.svg",
+    "index.html": "/travellor-checkin/index.html",
+    "main.b49f78cb.css.map": "/travellor-checkin/static/css/main.b49f78cb.css.map",
+    "main.50628c1a.js.map": "/travellor-checkin/static/js/main.50628c1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b49f78cb.css",
+    "static/js/main.50628c1a.js"
+  ]
+}
